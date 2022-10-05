@@ -3,21 +3,19 @@ let numArr = [
 ];
 for (let i of numArr) {
     console.log(String(i) + ".  Row of multiplications:");
-    console.log("type of i ", typeof (i));
     for (let j of numArr) {
         console.log(String(i) + " X " + String(j) + " = ", String(i * j));
     }
-    console.log("_____________________________________");
+    console.log("________________________");
 }
-var br = "<br>";
 document.write();
 const nameArrObj = [
     {
-        "fname": 'Julie',
-        "lname": 'Larssen_1'
+        fname: 'Julie',
+        lname: 'Larssen_1'
     }, {
-        "fname": 'Lijeu',
-        "lname": 'Larssen_2'
+        fname: 'Lijeu',
+        lname: 'Larssen_2'
     }, {
         fname: 'Iuelj',
         lname: 'Larssen_3'
@@ -48,7 +46,7 @@ var nameElem = document.getElementsByTagName('h1');
 nameArrObj.forEach((nameObj) => {
     /*     console.log("html elem  ", nameElem[0],"nameObj  ", nameObj);
         console.log( "der vorname",typeof(nameObj.fname)); */
-    nameElem[0].innerHTML += `<p>${nameObj.fname}&nbsp</p>`;
+    nameElem[0].innerHTML += `<p style="margin-left=20px" ${nameObj.fname}&nbsp</p>`;
 });
 setTimeout(() => {
     //do somethin delayed with 5 sec

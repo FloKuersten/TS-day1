@@ -5,7 +5,6 @@ let numArr: Array<Number> = [
 
 for (let i of numArr) {
     console.log(String(i) + ".  Row of multiplications:");
-    console.log("type of i ", typeof (i));
     for (let j of numArr) {
         console.log(String(i) + " X " + String(j) + " = ", String(i * j));
     }
