@@ -16,25 +16,25 @@ const nameArrObj = [
         "fname": 'Julie',
         "lname": 'Larssen_1'
     }, {
-        "fname": 'Julie',
+        "fname": 'Lijeu',
         "lname": 'Larssen_2'
     }, {
-        fname: 'Julie',
+        fname: 'Iuelj',
         lname: 'Larssen_3'
     }, {
-        fname: 'Julie',
+        fname: 'Lueji',
         lname: 'Larssen_4'
     }, {
         fname: 'Ulije',
         lname: 'Larssen_5'
     }, {
-        fname: 'Julie',
+        fname: 'Jleiu',
         lname: 'Larssen_6'
     }, {
-        fname: 'Julie',
+        fname: 'Iuejl',
         lname: 'Larssen_7'
     }, {
-        fname: 'Julie',
+        fname: 'Ijelu',
         lname: 'Larssen_8'
     }, {
         fname: 'Ejuli',
@@ -45,7 +45,6 @@ const nameArrObj = [
     }
 ];
 var nameElem = document.getElementsByTagName('h1');
-nameElem[0].innerHTML = ""; //reset DOM
 nameArrObj.forEach((nameObj) => {
     /*     console.log("html elem  ", nameElem[0],"nameObj  ", nameObj);
         console.log( "der vorname",typeof(nameObj.fname)); */
