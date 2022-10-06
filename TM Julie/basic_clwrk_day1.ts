@@ -1,5 +1,5 @@
 
-let numArr: Array<Number> = [
+let numArr: Array<number> = [
     1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 ]
 
@@ -47,11 +47,13 @@ const nameArrObj = [
         'lname': 'Larssen_10'
     } 
 ];
-var nameElem = document.getElementsByTagName('h1');
+var nameElem: Array<HTMLHeadingElement> = document.getElementsByTagName('h1');
+// var nameElem = document.getElementsByTagName('h1');
+
 
 nameArrObj.forEach((nameObj) => {
-/*     console.log("html elem  ", nameElem[0],"nameObj  ", nameObj);
-    console.log( "der vorname",typeof(nameObj.fname)); */
+/*     console.log("html elem  ", nameElem[0],"nameObj  ", nameObj);  */
+    console.log( "der vorname",typeof(nameObj.fname));
     nameElem[0].innerHTML+=`<p style="margin-left=20px" ${nameObj.fname}&nbsp</p>`; 
     });
 
